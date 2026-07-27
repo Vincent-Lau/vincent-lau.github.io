@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources: 
+    - assets/**
+
+website:
+  title: Vincent Lau
+
+  navbar:
+    title: false
+    pinned: true
+    right:
+      - text: Home
+        href: index.qmd#home
+
+      - text: Biography
+        href: index.qmd#biography
+
+      - text: Research
+        href: index.qmd#research
+    left:
+      - text: Institution
+        href: https://www.cuhk.edu.cn/
+    
+    page-footer:
+      center: "© 2026 Vincent Lau"
+
+format:
+  html:
+    theme:
+      - cosmo
+      #- brand
+      - theme.scss
+    css:
+      - fonts.css
+      - styles.css
+    toc: false
+
+    page-layout: full
+
+    grid:
+      body-width: 1180px
+      gutter-width: 1.5rem
+
+
+

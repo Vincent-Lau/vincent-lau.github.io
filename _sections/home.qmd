@@ -1,0 +1,59 @@
+<div class="home-profile">
+
+<div class="profile-photo-column">
+<img
+src="assets/images/profile.jpg"
+alt="Portrait of Vincent Lau"
+class="profile-photo">
+</div>
+
+<div class="profile-content">
+
+<h1>Information</h1>
+
+<div class="profile-fields">
+
+<div class="profile-row">
+<div class="profile-label">
+<strong>Publish Name:</strong>
+</div>
+<div class="profile-value">
+Vincent Lau
+</div>
+</div>
+
+<div class="profile-row">
+<div class="profile-label">
+<strong>Original Name:</strong>
+</div>
+<div class="profile-value">
+Xincheng Liu <span lang="zh">刘欣城</span>
+</div>
+</div>
+
+<div class="profile-row">
+<div class="profile-label">
+<strong>Education:</strong>
+</div>
+<div class="profile-value">
+B.A. Statistics &amp; Economics,
+The Chinese University of Hong Kong, Shenzhen
+</div>
+</div>
+
+<div class="profile-row">
+<div class="profile-label">
+<strong>Email:</strong>
+</div>
+<div class="profile-value">
+<a href="mailto:xinchengliu@link.cuhk.edu.cn">
+xinchengliu@link.cuhk.edu.cn
+</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>

@@ -1,0 +1,19 @@
+# title
+# subtitle
+# authors
+# status
+# journal
+# year
+# doi
+# pdf
+
+- title: "Freshly Cooked or Factory-Prepared?"
+  subtitle: "Estimating Restaurants' Hidden Production Practices through Labor-Market Signals"
+  authors:
+    - Eric Wu
+    - Vincent Lau
+    - Colin Sheng
+    - Uchenna Cyril Eze
+  status: "Working Paper"
+  year: 2026
+  pdf: "assets/papers/prepared-meals.pdf"

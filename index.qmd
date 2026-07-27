@@ -1,0 +1,25 @@
+---
+title: "Vincent Lau"
+subtitle: "Statistics & Economics"
+
+title-block-banner: assets/images/home-banner.jpg
+title-block-banner-color: "#ffffff"
+
+listing:
+  id: research-list
+  contents:
+    - data/research.yml
+  template: templates/research.ejs.md
+---
+
+::: {#home .page-section}
+{{< include _sections/home.qmd >}}
+:::
+
+::: {#biography .page-section}
+{{< include _sections/biography.qmd >}}
+:::
+
+::: {#research .page-section}
+{{< include _sections/research.qmd >}}
+:::

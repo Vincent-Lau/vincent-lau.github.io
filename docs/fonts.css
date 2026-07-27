@@ -1,0 +1,19 @@
+/* EB Garamond：正常体可变字体 */
+@font-face {
+    font-family: "EB Garamond";
+    src:
+        url("assets/fonts/eb-garamond/EBGaramond-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400 800;
+    font-display: swap;
+}
+
+/* EB Garamond：斜体可变字体 */
+@font-face {
+    font-family: "EB Garamond";
+    src:
+        url("assets/fonts/eb-garamond/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400 800;
+    font-display: swap;
+}

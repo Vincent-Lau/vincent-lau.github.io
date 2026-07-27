@@ -1,0 +1,73 @@
+/*-- scss:defaults --*/
+
+/* Core palette */
+$navy: #14213D;
+$primary-blue: #1F5A94;
+$dark-blue: #17466F;
+$pale-blue: #EAF2F8;
+
+$page-bg: #FBFCFE;
+$surface: #FFFFFF;
+$text-main: #20252B;
+$text-muted: #667085;
+$border-gray: #D9E1E8;
+
+/* Bootstrap and Quarto theme variables */
+$primary: $primary-blue;
+$secondary: $text-muted;
+$light: $pale-blue;
+
+$body-bg: $page-bg;
+$body-color: $text-main;
+$headings-color: $navy;
+
+$link-color: $primary-blue;
+$link-hover-color: $dark-blue;
+
+$border-color: $border-gray;
+
+/* Navigation */
+$navbar-bg: $navy;
+$navbar-fg: $surface;
+$navbar-hl: $surface;
+
+/* Footer */
+$footer-bg: $pale-blue;
+$footer-fg: $text-muted;
+
+
+/*-- scss:rules --*/
+
+:root {
+    --site-navy: #14213D;
+    --site-primary: #1F5A94;
+    --site-primary-hover: #17466F;
+    --site-accent-soft: #EAF2F8;
+
+    --site-background: #FBFCFE;
+    --site-surface: #FFFFFF;
+    --site-text: #20252B;
+    --site-muted: #667085;
+    --site-border: #D9E1E8;
+
+    --site-side-background: #F1F3F5;
+    --site-content-background: #f7f9fa;
+}
+
+/* Typography */
+
+$font-family-base: "EB Garamond",
+    Garamond,
+    Georgia,
+    "Times New Roman",
+    serif;
+
+$headings-font-family: "EB Garamond",
+    Garamond,
+    Georgia,
+    "Times New Roman",
+    serif;
+
+$font-weight-base: 400;
+$headings-font-weight: 500;
+$font-weight-bold: 500;
