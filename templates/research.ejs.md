@@ -63,7 +63,7 @@
       <% if (item.pdf) { %>
         <div class="research-links">
           <a href="<%= item.pdf %>" target="_blank" rel="noopener noreferrer">
-            PDF
+            View PDF
           </a>
         </div>
       <% } %>
