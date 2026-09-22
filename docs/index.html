@@ -84,9 +84,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-authors','listing-status','listing-year','listing-pdf',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-authors','listing-status','listing-journal','listing-year','listing-pdf',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-status","listing-year","listing-pdf"],
+      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-status","listing-journal","listing-year","listing-pdf"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -311,10 +311,15 @@ Information
       
         <div class="research-field research-status">
           <span class="research-label">Status:</span>
-          <span class="research-value">Working Paper</span>
+          <span class="research-value">Under Review</span>
         </div>
       
 
+      
+        <div class="research-field research-journal">
+          <span class="research-label">Journal:</span>
+          <span class="research-value">Journal of Consumer Affairs</span>
+        </div>
       
 
       
