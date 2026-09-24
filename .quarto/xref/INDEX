@@ -7,5 +7,8 @@
   },
   "Readme.md": {
     "Readme.html": "3029aecc"
+  },
+  "_sections/home.qmd": {
+    "home.html": "b828f0bf"
   }
 }

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Vincent Lau</title>
+<title>home – Vincent Lau</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,24 +29,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5a19ecf0b634c98f99eb780a5b2bf519.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-5a19ecf0b634c98f99eb780a5b2bf519.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,163 +72,34 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-list .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-authors','listing-status','listing-journal','listing-year','listing-pdf',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-status","listing-journal","listing-year","listing-pdf"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-list'] = new List('listing-research-list', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: #ffffff;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: #ffffff;
-background-image: url(assets/images/home-banner.jpg);
-background-size: cover;
-      }
-</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="fonts.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../fonts.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.cuhk.edu.cn/"> 
-<span class="menu-text">Institution</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html#home"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html#biography"> 
-<span class="menu-text">Biography</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html#research"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Vincent Lau</h1>
-            <p class="subtitle lead">Statistics &amp; Economics</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">
+Information
+</h1></header>
 
 
 
 
-
-<div id="home" class="page-section">
 <div class="home-profile">
 <div class="profile-photo-column">
 <p><img src="assets/images/profile.jpg" alt="Portrait of Vincent Lau" class="profile-photo"></p>
 </div>
 <div class="profile-content">
-<h1>
-Information
-</h1>
+
 <div class="profile-fields">
 <div class="profile-row">
 <div class="profile-label">
@@ -267,88 +136,6 @@ Information
 </div>
 </div>
 </div>
-</div>
-<section id="biography" class="level1 page-section">
-<h1>Biography</h1>
-<p><strong>Vincent Lau</strong>, born Xincheng Liu, was born in Shenzhen, China, in 2007. He developed an interest in economics during high school. He major in Statistics and minor in Economics at The Chinese University of Hong Kong, Shenzhen, with the ambition of pursuing a career in economic research.</p>
-<section id="research-interests" class="level2">
-<h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
-<ul>
-<li>Institutional Economics</li>
-<li>Empirical Economics</li>
-<li>Labor Economics</li>
-</ul>
-</section>
-</section>
-<div id="research" class="page-section">
-<section id="research-publications" class="level1">
-<h1>Research &amp; Publications</h1>
-<div id="listing-research-list" class="quarto-listing quarto-listing-container-custom">
-<div class="research-list list">
-
-  <article class="research-item" data-index="0">
-
-    <h3 class="research-title listing-title anchored" data-anchor-id="research-publications">
-      Freshly Cooked or Factory-Prepared?
-    </h3>
-
-    
-      <div class="research-subtitle listing-subtitle">
-        Estimating Restaurants' Hidden Production Practices through Labor-Market Signals
-      </div>
-    
-
-    <div class="research-details">
-
-      
-        
-        <div class="research-field research-authors listing-authors">
-          <span class="research-label">Authors:</span>
-          <span class="research-value">Eric Wu, Vincent Lau, Colin Sheng, Uchenna Cyril Eze</span>
-        </div>
-      
-
-      
-        <div class="research-field research-status">
-          <span class="research-label">Status:</span>
-          <span class="research-value">Under Review</span>
-        </div>
-      
-
-      
-        <div class="research-field research-journal">
-          <span class="research-label">Journal:</span>
-          <span class="research-value">Economic Inquiry</span>
-        </div>
-      
-
-      
-        <div class="research-field research-year">
-          <span class="research-label">Year:</span>
-          <span class="research-value">2026</span>
-        </div>
-      
-
-      
-
-      
-        <div class="research-links">
-          <a href="assets/papers/prepared-meals.pdf" target="_blank" rel="noopener noreferrer">
-            View PDF
-          </a>
-        </div>
-      
-
-    </div>
-
-  </article>
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-</div>
-
 
 
 
