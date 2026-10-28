@@ -52,6 +52,18 @@ xinchengliu@link.cuhk.edu.cn
 </div>
 </div>
 
+
+<div class="d-flex flex-wrap gap-2 my-3">
+  <a href="assets/cv/CV_Vincent_Lau.pdf"
+     class="btn btn-outline-primary"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="bi bi-file-earmark-pdf"></i>
+    View CV
+  </a>
+</div>
+
+
 </div>
 
 </div>

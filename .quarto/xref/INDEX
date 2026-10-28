@@ -10,5 +10,8 @@
   },
   "_sections/home.qmd": {
     "home.html": "b828f0bf"
+  },
+  "templates/research.ejs.md": {
+    "research.ejs.html": "4f19a12a"
   }
 }

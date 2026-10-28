@@ -61,8 +61,12 @@
       <% } %>
 
       <% if (item.pdf) { %>
-        <div class="research-links">
-          <a href="<%= item.pdf %>" target="_blank" rel="noopener noreferrer">
+        <div class="d-flex flex-wrap gap-2 my-3">
+          <a href="<%= item.pdf %>"
+            class="btn btn-outline-secondary"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-file-earmark-pdf"></i>
             View PDF
           </a>
         </div>

@@ -84,9 +84,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-authors','listing-status','listing-journal','listing-year','listing-pdf',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-authors','listing-status','listing-year','listing-pdf',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-status","listing-journal","listing-year","listing-pdf"],
+      searchColumns: ["listing-title","listing-subtitle","listing-authors","listing-status","listing-year","listing-pdf"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -264,6 +264,9 @@ Information
 <p><a href="mailto:xinchengliu@link.cuhk.edu.cn"> xinchengliu@link.cuhk.edu.cn </a></p>
 </div>
 </div>
+<div class="d-flex flex-wrap gap-2 my-3">
+<p><a href="assets/cv/CV_Vincent_Lau.pdf" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-pdf"></i> View CV </a></p>
+</div>
 </div>
 </div>
 </div>
@@ -304,22 +307,17 @@ Information
         
         <div class="research-field research-authors listing-authors">
           <span class="research-label">Authors:</span>
-          <span class="research-value">Eric Wu, Vincent Lau, Colin Sheng, Uchenna Cyril Eze</span>
+          <span class="research-value">Eric Wu<sup>†</sup>, Vincent Lau<sup>†</sup>, Kane Wu, Colin Sheng, Uchenna Cyril Eze*</span>
         </div>
       
 
       
         <div class="research-field research-status">
           <span class="research-label">Status:</span>
-          <span class="research-value">Under Review</span>
+          <span class="research-value">Working Paper</span>
         </div>
       
 
-      
-        <div class="research-field research-journal">
-          <span class="research-label">Journal:</span>
-          <span class="research-value">Economic Inquiry</span>
-        </div>
       
 
       
@@ -332,8 +330,9 @@ Information
       
 
       
-        <div class="research-links">
-          <a href="assets/papers/prepared-meals.pdf" target="_blank" rel="noopener noreferrer">
+        <div class="d-flex flex-wrap gap-2 my-3">
+          <a href="assets/papers/prepared-meals.pdf" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-file-earmark-pdf"></i>
             View PDF
           </a>
         </div>
