@@ -28,7 +28,8 @@
 
 :root {
   --sidebar: #f8f8f8;
-  --content: #f3f3f4;
+  --sidebarbg: #e9eaeb;
+  --content: #f8f8f8;
   --page: #e9eaeb;
   --line: #bbc0c6;
   --nav: #8f8f8f;
@@ -105,14 +106,14 @@ a {
 }
 
 .sidebar {
-  background: var(--sidebar);
+  background: var(--sidebarbg);
   border-right: 1px solid var(--line);
 }
 
 .sidebar-inner {
   position: sticky;
   top: 24px;
-  padding: 88px clamp(18px, 4vw, 64px) 40px;
+  padding: 40px clamp(18px, 4vw, 64px) 40px;
 }
 
 .profile-card {
@@ -198,7 +199,7 @@ a {
 .section-nav {
   max-width: 220px;
   margin: 32px auto 0;
-  padding-left: 12px;
+  padding-left: 20px;
   border-left: 2px solid var(--line);
 }
 
@@ -217,7 +218,8 @@ a {
 
 .content {
   min-width: 0;
-  padding: 92px clamp(32px, 6vw, 116px) 145px;
+  margin-right: 40px;
+  padding: 96px clamp(32px, 6vw, 116px) 145px;
   background: var(--content);
 }
 
@@ -516,6 +518,7 @@ footer {
 
   .content {
     padding: 48px 24px 78px;
+    margin-right: 0px;
   }
 
   .section {
