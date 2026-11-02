@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vincent Lau</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="hero" aria-label="Introduction">
+    <div class="hero-copy">
+      <h1>Vincent Lau</h1>
+      <p>Statistics &amp; Economics</p>
+    </div>
+  </header>
+
+  <div class="site-body">
+    <div class="layout">
+      <aside class="sidebar" aria-label="Profile and navigation">
+        <div class="sidebar-inner">
+          <div class="profile-card">
+            <img class="portrait" src="assets/images/profile.jpg" alt="Portrait of Vincent Lau">
+            <div class="profile-name">Vincent Lau</div>
+            <a class="pill solid" href="assets/cv/CV_Vincent_Lau.pdf" target="_blank" rel="noopener">
+              View CV
+            </a>
+            <a class="pill outline" href="mailto:xinchengliu@link.cuhk.edu.cn">Email me</a>
+          </div>
+          <nav class="section-nav" aria-label="Page sections">
+            <a href="#information" class="active">Information</a>
+            <a href="#bibliography">Bibliography</a>
+            <a href="#research">Research</a>
+          </nav>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section id="information" class="section information">
+          <h2>Information</h2>
+          <dl class="identity">
+            <dt>Publish Name</dt>
+            <dd>Vincent Lau</dd>
+            <dt>Original Name</dt>
+            <dd>Xincheng Liu <span lang="zh">刘欣城</span></dd>
+            <dt>Current Institution</dt>
+            <dd>The Chinese University of Hong Kong, Shenzhen</dd>
+          </dl>
+          <h3 class="kicker">Education</h3>
+          <div class="education-row">
+            <span class="education-date">2025 ~ Now</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="education-detail">
+              The Chinese University of Hong Kong, Shenzhen<br>
+              <em>B.A. in Statistics &amp; Economics</em>
+            </span>
+          </div>
+        </section>
+
+        <section id="bibliography" class="section bibliography">
+          <h2>Bibliography</h2>
+          <p>
+            Vincent Lau, born Xincheng Liu, was born in Shenzhen, China, in 2007.
+            He developed an interest in economics during high school. He majors in
+            Statistics and minors in Economics at The Chinese University of Hong Kong,
+            Shenzhen, with the ambition of pursuing a career in economic research.
+          </p>
+          <h3>Research Interests</h3>
+          <ul>
+            <li>Institutional Economics</li>
+            <li>Empirical Economics</li>
+            <li>Labor Economics</li>
+          </ul>
+        </section>
+
+        <section id="research" class="section research">
+          <h2>Research &amp; Publications</h2>
+          <h3>Working Papers</h3>
+          {{RESEARCH_ITEMS}}
+        </section>
+      </main>
+    </div>
+    <footer>© Copyright 2026 Vincent Lau. All rights reserved</footer>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>
