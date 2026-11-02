@@ -24,30 +24,5 @@
     "year": 2026,
     "abstract": "Many Chinese consumers worry about the use of prepared meals in restaurants. However, this production practice is usually unobservable. This study identifies a labor-market signal which may indicate the restaurants’ reliance on prepared meals. We assemble an original restaurant-level dataset from 5 major cities in China by combining online recruitment postings, commercial-rent listings, chain size, location-based cooking constraints, and consumer reviews. A Multiple Indicators Multiple Causes (MIMIC) model uses the chef-to-server wage ratio and the share of negative reviews mentioning prepared meals as reflective indicators of latent prepared meal reliance. The estimation uses 311 complete restaurant observations. Results show that higher rent, greater chain size, and location in the interior of large commercial complexes are each associated with greater latent reliance. Consistent with the proposed mechanism, reliance is negatively reflected in the chef-to-server wage ratio and positively reflected in prepared-meal-related complaints. The study contributes to consumer-affairs research by offering consumers and regulators a practical means of mitigating information asymmetry and supporting more transparent disclosure of restaurant production practices. The study also points out that opaque production practices in one market may be inferred from observable traces in an adjacent market.",
     "pdf": "assets/papers/prepared-meals.pdf"
-  },
-  {
-    "title": "Freshly Cooked or Factory-Prepared? Estimating Restaurants' Hidden Production Practice through Labor Market Signals",
-    "authors": [
-      {
-        "name": "Eric Wu",
-        "marker": "†"
-      },
-      {
-        "name": "Vincent Lau",
-        "marker": "†"
-      },
-      {
-        "name": "Kane Wu"
-      },
-      {
-        "name": "Colin Sheng"
-      },
-      {
-        "name": "Uchenna Cyril Eze",
-        "marker": "*"
-      }
-    ],
-    "year": 2026,
-    "doi": "10.2139/ssrn.4680910"
   }
 ]

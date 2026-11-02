@@ -301,11 +301,12 @@ a {
 }
 
 .research {
+  max-width: 760px;
   margin-bottom: 0;
 }
 
 .research h3 {
-  margin: 0 0 14px;
+  margin: 0 0px 14px;
 }
 
 .paper {

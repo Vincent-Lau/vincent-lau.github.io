@@ -25,7 +25,7 @@ def render_authors(authors):
 
 def render_paper(item, index):
     panel_id = f"paper-{index}"
-    expanded = index == 1
+    expanded = False
     fields = []
 
     def field(label, value, class_name=""):
