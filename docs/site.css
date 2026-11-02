@@ -67,7 +67,7 @@ a {
   display: grid;
   place-items: center;
   background:
-    linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+    linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
     url("assets/images/home-banner.jpg") center / cover no-repeat;
   color: white;
   text-align: center;
@@ -167,14 +167,16 @@ a {
   color: var(--blue);
 }
 
-.pill.outline:hover, .pill.outline:focus-visible {
+.pill.outline:hover,
+.pill.outline:focus-visible {
   background: var(--blue);
   color: white;
   box-shadow: 0 3px 10px #49589026;
   transform: translateY(-1px);
 }
 
-.pill.solid:hover, .pill.solid:focus-visible {
+.pill.solid:hover,
+.pill.solid:focus-visible {
   background: #364575;
   color: white;
   box-shadow: 0 3px 10px #49589026;
@@ -186,7 +188,9 @@ a {
   box-shadow: none;
 }
 
-.pill:focus-visible, .paper-trigger:focus-visible, .section-nav a:focus-visible {
+.pill:focus-visible,
+.paper-trigger:focus-visible,
+.section-nav a:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 3px;
 }
@@ -206,7 +210,8 @@ a {
   line-height: 1.45;
 }
 
-.section-nav a.active, .section-nav a:hover {
+.section-nav a.active,
+.section-nav a:hover {
   font-weight: 700;
 }
 
@@ -279,19 +284,19 @@ a {
   font-style: normal;
 }
 
-.bibliography p {
+.biography p {
   max-width: 760px;
   margin: 0 0 22px;
   text-align: justify;
 }
 
-.bibliography ul {
+.biography ul {
   margin: 0;
   padding-left: 17px;
   list-style: none;
 }
 
-.bibliography li::before {
+.biography li::before {
   content: "• ";
 }
 
@@ -414,7 +419,8 @@ a {
   color: var(--muted);
 }
 
-.pill.outline.pdf-link:hover, .pill.outline.pdf-link:focus-visible {
+.pill.outline.pdf-link:hover,
+.pill.outline.pdf-link:focus-visible {
   background: var(--muted);
   color: white;
   box-shadow: 0 3px 10px #9a9a9a33;
@@ -433,26 +439,32 @@ footer {
     height: 34vh;
     padding: 20px;
   }
+
   .hero h1 {
     font-size: clamp(42px, 10vw, 66px);
   }
+
   .hero p {
     font-size: clamp(17px, 4.5vw, 22px);
   }
+
   .layout {
     display: block;
     min-height: 0;
     border-right: 0;
   }
+
   .sidebar {
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
+
   .sidebar-inner {
     position: static;
     display: block;
     padding: 24px 20px 18px;
   }
+
   .profile-card {
     display: grid;
     grid-template-columns: clamp(78px, 22vw, 112px) minmax(0, 1fr);
@@ -462,20 +474,24 @@ footer {
     padding: 14px;
     border-radius: 18px;
   }
+
   .portrait {
     grid-row: 1 / 4;
   }
+
   .profile-name {
     margin: 0 0 4px;
     text-align: left;
     font-size: 16px;
   }
+
   .profile-card .pill {
     width: min(100%, 124px);
     margin: 4px 0;
     padding: 6px 8px;
     font-size: 13px;
   }
+
   .section-nav {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -487,63 +503,80 @@ footer {
     border-top: 2px solid var(--line);
     text-align: center;
   }
+
   .section-nav a {
     font-size: clamp(12px, 3.5vw, 15px);
     white-space: nowrap;
   }
+
   .content {
     padding: 48px 24px 78px;
   }
+
   .section {
     margin-bottom: 68px;
   }
+
   .section h2 {
     font-size: clamp(30px, 7vw, 38px);
   }
+
   .education-row {
     display: block;
     padding: 0;
   }
+
   .education-date {
     display: block;
     color: var(--muted);
   }
+
   .dots {
     display: none;
   }
+
   .education-detail {
     display: block;
     margin-top: 3px;
     text-align: left;
     overflow-wrap: break-word;
   }
-  .bibliography p {
+
+  .biography p {
     text-align: left;
   }
+
   .paper-trigger {
     gap: 10px;
     font-size: 17px;
   }
+
   .paper-body {
     margin-left: 0;
   }
+
   .paper-fields {
     grid-template-columns: 64px minmax(0, 1fr);
     gap: 4px 9px;
     font-size: 13px;
   }
+
   .paper-fields dd {
     min-width: 0;
     overflow-wrap: break-word;
   }
-  .paper-fields .abstract-label, .paper-fields .abstract {
+
+  .paper-fields .abstract-label,
+  .paper-fields .abstract {
     grid-column: 1 / -1;
   }
+
   .paper-fields .abstract {
     margin: 3px 0 0;
     padding-left: 12px;
     text-align: left;
   }
+
   .pill.outline.pdf-link {
     margin-left: 0;
   }
@@ -553,12 +586,15 @@ footer {
   .sidebar-inner {
     padding-inline: 16px;
   }
+
   .profile-card {
     gap: 0 12px;
   }
+
   .content {
     padding-inline: 18px;
   }
+
   .section-nav {
     gap: 4px;
   }
@@ -568,7 +604,10 @@ footer {
   html {
     scroll-behavior: auto;
   }
-  .pill, .toggle::after, .paper-panel {
+
+  .pill,
+  .toggle::after,
+  .paper-panel {
     transition: none;
   }
 }
