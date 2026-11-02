@@ -309,6 +309,10 @@ a {
   margin: 0 0px 14px;
 }
 
+.research-group+.research-group {
+  margin-top: 40px;
+}
+
 .paper {
   margin: 0 0 30px;
 }

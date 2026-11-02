@@ -73,15 +73,50 @@ def render_paper(item, index):
           </article>'''
 
 
+def render_research(groups):
+    sections = []
+    paper_index = 1
+
+    for group in groups:
+        items = group.get("items", [])
+        if not items:
+            continue  # 不显示空类别
+
+        papers = []
+        for item in items:
+            papers.append(render_paper(item, paper_index))
+            paper_index += 1  # 跨类别连续编号，避免 HTML ID 重复
+
+        group_id = escape(group["id"], quote=True)
+        title = escape(group["title"])
+        paper_markup = "\n".join(papers)
+
+        sections.append(
+            f'          <div class="research-group" id="{group_id}">\n'
+            f'            <h3>{title}</h3>\n'
+            f'{paper_markup}\n'
+            f'          </div>'
+        )
+
+    return "\n".join(sections)
+
+
 def main():
-    papers = json.loads((SOURCE / "research.json").read_text(encoding="utf-8"))
+    groups = json.loads(
+        (SOURCE / "research.json").read_text(encoding="utf-8")
+    )
     template = (SOURCE / "template.html").read_text(encoding="utf-8")
-    if template.count("{{RESEARCH_ITEMS}}") != 1:
+
+    placeholder = "{{RESEARCH_GROUPS}}"
+    if template.count(placeholder) != 1:
         raise ValueError("Expected one research placeholder in template")
-    paper_markup = "\n".join(render_paper(item, i) for i, item in enumerate(papers, 1))
-    html = template.replace("          {{RESEARCH_ITEMS}}", paper_markup)
+
+    research_markup = render_research(groups)
+    html = template.replace(placeholder, research_markup)
+
     OUTPUT.mkdir(exist_ok=True)
     (OUTPUT / "index.html").write_text(html, encoding="utf-8")
+
     shutil.copytree(ROOT / "assets", OUTPUT / "assets", dirs_exist_ok=True)
     for name in ("site.css", "site.js"):
         shutil.copyfile(SOURCE / name, OUTPUT / name)
