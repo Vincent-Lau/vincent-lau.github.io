@@ -36,6 +36,24 @@
     "title": "Work in Progress",
     "items": [
       {
+        "title": "Charity or Hypocrisy: Donation and Internal Wage Gap of Corporation",
+        "authors": [
+          {
+            "name": "Eric Wu",
+            "marker": "†"
+          },
+          {
+            "name": "Vincent Lau",
+            "marker": "†"
+          },
+          {
+            "name": "Uchenna Cyril Eze",
+            "marker": "*"
+          }
+        ],
+        "year": 2026
+      },
+      {
         "title": "Asymmetric Market Recovery after the Repeal of a Transaction Tax: Evidence from Hong Kong’s Housing Market"
       }
     ]
