@@ -490,8 +490,7 @@ footer {
   }
 
   .sidebar {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
+    background: var(--content);
   }
 
   .sidebar-inner {
@@ -502,6 +501,7 @@ footer {
 
   .profile-card {
     display: grid;
+    margin-top: 10px;
     grid-template-columns: clamp(78px, 22vw, 112px) minmax(0, 1fr);
     gap: 0 16px;
     align-items: center;
@@ -528,7 +528,7 @@ footer {
   }
 
   .section-nav {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 8px;
     max-width: 420px;
@@ -537,16 +537,18 @@ footer {
     border-left: 0;
     border-top: 2px solid var(--line);
     text-align: center;
+    left: 0px;
   }
 
-  .section-nav a {
+  /*.section-nav a {
     font-size: clamp(12px, 3.5vw, 15px);
     white-space: nowrap;
-  }
+  }*/
 
   .content {
     padding: 48px 24px 78px;
     margin-right: 0px;
+    box-shadow: 0 0px 0px #49589026;
   }
 
   .section {
