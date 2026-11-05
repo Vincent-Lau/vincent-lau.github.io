@@ -28,8 +28,22 @@
 
 @font-face {
   font-family: "Cormorant SC";
-  src: url("assets/fonts/CormorantSC/CormorantGaramond-VariableFont_wght.ttf") format("ttf");
+  src: url("assets/fonts/CormorantSC/CormorantSC-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant GM";
+  src: url("assets/fonts/CormorantGM/CormorantGaramond.ttf") format("truetype");
   /*font-weight: 600;*/
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Display";
+  src: url("assets/fonts/Source/SourceSerif4Display-Bold.otf") format("opentype");
+  font-weight: 700;
   font-display: swap;
 }
 
@@ -230,7 +244,7 @@ a {
 
 .content {
   min-width: 0;
-  margin-right: 40px;
+  margin-right: 80px;
   padding: 96px clamp(32px, 6vw, 116px) 145px;
   background: var(--content);
   box-shadow: 0 3px 10px #49589026;
@@ -244,7 +258,7 @@ a {
 .section h2 {
   margin: 0 0 26px;
   color: var(--blue);
-  font: 600 clamp(24px, 3vw, 32px)/1.1 "Libertinus Serif", Georgia, serif;
+  font: 700 clamp(24px, 3vw, 32px)/1.1 "Source Display", Georgia, serif;
 }
 
 .section h3 {
@@ -275,7 +289,7 @@ a {
   display: flex;
   gap: 15px;
   align-items: baseline;
-  max-width: 750px;
+  max-width: 760px;
   padding: 0 25px;
   font-size: 14px;
 }
